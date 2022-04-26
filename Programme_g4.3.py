@@ -42,11 +42,8 @@ with rsk.Client(host='172.19.66.163', key='') as client:
         print(greenx1,greeny1)
         '''
         def siball():
-            '''
-            if (greenx1-xb<0.5)and(greenx1-xb>0.5):#and (greeny1-yb>0.5):
-                client.green1.goto((greenx1-0.1,greeny1,3.14))
-                client.green1.goto((xb+0.1,yb,3.14))'''
-            print('jefaisdestruc')
+           # if ball pres du robot stoker le temps dans une varible , if varible > temps --> reculer
+        
         def versball():
             if (xb-robotx) < 0:
                 if roboty<0:
